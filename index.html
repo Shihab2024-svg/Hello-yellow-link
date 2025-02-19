@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <title>Hello Yellow - links page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no>
-  <meta name="description" content="مصنوعه بمواد عضويه وفاخره  تعمل بشكل بارز في تحسين البشره  منتجات عنايه بالبشره يمنية">
-  <meta name="keywords" content="منتجات العناية بالبشرة، عناية بالبشرة الطبيعية، مواد عضوية للعناية بالبشرة، منتجات طبيعية للبشرة، منتجات فاخرة للعناية بالبشرة، Lali Beauty، Lali Beauty للعناية بالبشرة، منتجات Lali Beauty، Lali Beauty منتجات يمنية، Lali Beauty منتجات عضوية، Lali Beauty العناية بالبشرة، لالي ، لالي بيوتي">
-  <meta name="author" content="Lali Beauty لالي بيوتي">
+  <meta name="description" content=" hello yellow">
+  <meta name="keywords" content=" متجر الكتروني >
+  <meta name="author" content=" hello yellow">
   <link rel="icon" href="icon.png">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
@@ -23,11 +23,14 @@
 </script>
 <body>
   
+  
+  
     <header>
   <img class="img" src="logo2.svg" alt="Logo">
   <img class="img-2" src="logo3.svg" alt="Logo"> <!-- ضع رابط الشعار هنا -->
   
 </header>
+
   <div class="container">
     <h1 class="color">صفحة الروابط</h1>
       
@@ -53,6 +56,36 @@
       </div>
     </div>
   </footer>
+  
+  <!-- بوكس الإشعار -->
+<div id="notification" class="notification">
+    جرب زيارة متجرنا الإلكتروني من الزر الاول
+</div>
+
+<script>
+    // عرض بوكس الإشعار لمدة 2 ثانية ثم اختفائه
+    setTimeout(function() {
+        document.getElementById('notification').style.display = 'none';
+    }, 4000);
+</script>
+
+<style>
+    /* تنسيق بوكس الإشعار */
+    .notification {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f9c35369;
+        backdrop-filter: blur(10px);
+        color: white;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 18px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+    }
+</style>
 
   <script src="script.js"></script>
  
